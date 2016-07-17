@@ -17,7 +17,6 @@ module.exports = function(grunt) {
     main: {
       src: ['src/img/flags/@1x/*.png'],
       dest: 'build/img/flags.png',
-      cssTemplate: 'grunt/tmpl/sprite-retina-mustache.scss',
       destCss: 'src/css/sprite.scss',
       padding: 2, // this is currently just for chrome, otherwise flags seem to leak into each other
       algorithm: 'left-right',
